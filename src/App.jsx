@@ -11,6 +11,13 @@ const App = () => {
   });
 
   Notiflix.Notify.warning('Memento te hominem esse'); // this a warning notify
+  Notiflix.Notify.success(
+    'Click Me',
+    {
+      timeout: 6000,
+    },
+  );
+  
   useEffect(() => {
     // Show the loading spinner when the component mounts
     Notiflix.Loading.hourglass('Loading...');
