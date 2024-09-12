@@ -10,6 +10,7 @@ const App = () => {
     messageColor: '#fff',
   });
 
+  Notiflix.Notify.warning('Memento te hominem esse'); // this a warning notify
   useEffect(() => {
     // Show the loading spinner when the component mounts
     Notiflix.Loading.hourglass('Loading...');
