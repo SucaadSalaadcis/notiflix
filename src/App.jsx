@@ -29,4 +29,13 @@ const App = () => {
   );
 };
 
+// intan loading jirto
+
+// Loading.standard();
+// Loading.hourglass();
+// Loading.circle();
+// Loading.arrows();
+// Loading.dots();
+// Loading.pulse();
+
 export default App;
